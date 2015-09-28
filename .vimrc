@@ -11,6 +11,9 @@ set expandtab
 set incsearch
 set hlsearch
 
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
 " set background=dark
 " colorscheme solarized
 " color codeschool
