@@ -1,3 +1,4 @@
+set cpo-=C
 execute pathogen#infect()
 
 syntax on
