@@ -21,6 +21,8 @@ match ExtraWhitespace /\s\+$/
 " Highlight tabs used at the begining of a line
 match ExtraWhitespace /^\t\+/
 
+set diffopt+=vertical
+
 " set background=dark
 " colorscheme solarized
 " color codeschool
